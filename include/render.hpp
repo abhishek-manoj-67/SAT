@@ -10,7 +10,6 @@
 #include "defs.hpp"
 #include "Vec2.hpp"
 #include "Polygon.hpp"
-#include "Entity.hpp"
 
 void renderPolygon(SDL_Renderer* ren, const Polygon& poly, uint32_t color) {
 

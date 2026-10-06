@@ -33,6 +33,7 @@ int main(int argc, char* argv[]) {
 
     // game loop
     bool done = false;
+	Vec2 mouse(0.0f, 0.0f);
 	while (!done) {
 		// event poll
 		SDL_PollEvent(&e);
